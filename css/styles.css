@@ -8,10 +8,9 @@ h1 {
 h3 {
   text-align: center;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-
- form {
+form {
   align-items: left;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -23,9 +22,11 @@ h3 {
   background-color: #FFEFD5;
 }
 #price {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: bold;
   color: 	#B22222;
+  margin-left: 350px;
+  margin-top: 60px;
 }
 #size {
   background-color: #FFEFD5;
@@ -35,4 +36,5 @@ img {
   float: center;
   margin-bottom: 30px;
   margin-left: 22px;
+  margin-top: 20px;
 }
