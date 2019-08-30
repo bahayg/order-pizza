@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jQuery-3.4.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Welcome to BaGuBi's Pizza Palace!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to BaGuBi's Pizza Palace!</h1>
+      <h3>Please order your own personal pizza here:</h3>
+        <h4>Step 1: Select one size:</h4>
+          <select class="form-control" id="size">
+            <option value="small">Small 11"</option>
+            <option value="medium">Medium 13"</option>
+            <option value="large">Large 17"</option>
+          </select>
+          <form class="form-group" action="index.html" method="post">
+            <h4>Step 2: Select one or more toppings:</h4>
+            <input type="checkbox" name="toppings" value="arugula"> Arugula<br>
+            <input type="checkbox" name="toppings" value="Mushrooms"> Mushrooms<br>
+            <input type="checkbox" name="toppings" value="Olives"> Olives<br>
+            <input type="checkbox" name="toppings" value="sun-ripened-tomatoes"> Sun-Ripened Tomatoes<br>
+            <input type="checkbox" name="toppings" value="jalapeno-peppers"> Jalapeno Peppers<br>
+            <input type="checkbox" name="toppings" value="roasted-artichoke-hearts"> Roasted Artichoke Hearts<br>
+            <input type="checkbox" name="toppings" value="extra-mozarella"> Extra Mozzarella<br>
+      </form>
+      <div id="cost">
+        <h4>Step 3: Check the final cost:</h4>
+        <button type="submit" name="button">Calculate</button>
+      </div>
+    </div>
+  </body>
+</html>
