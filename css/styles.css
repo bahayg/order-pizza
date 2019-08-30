@@ -1,12 +1,13 @@
 h1 {
   text-align: center;
-  border: 5px solid darkcyan;
+  border: 5px solid	#B22222;
   padding: 30px;
   margin: 10px;
+  border-radius: 20px;
 }
 h3 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 30px;
 }
 
@@ -19,5 +20,19 @@ h3 {
   border: 0.5px solid darkgray;
   border-radius: 5px;
   padding: 10px;
-  background-color: LightCyan;
+  background-color: #FFEFD5;
+}
+#price {
+  font-size: 36px;
+  font-weight: bold;
+  color: 	#B22222;
+}
+#size {
+  background-color: #FFEFD5;
+  border: 0.5px solid darkgray;
+}
+img {
+  float: center;
+  margin-bottom: 30px;
+  margin-left: 22px;
 }
